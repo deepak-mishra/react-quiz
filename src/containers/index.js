@@ -1,2 +1,1 @@
-export App from './App'
-export Result from './Result'
+export App from "./App";

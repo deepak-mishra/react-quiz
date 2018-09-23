@@ -7,10 +7,6 @@ const routes = [
     path: "/",
     component: App,
     exact: true
-  },
-  {
-    path: "/result",
-    component: Result
   }
 ];
 

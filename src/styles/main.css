@@ -1,0 +1,13 @@
+.questions{
+  color: #10161A;
+  font-size: 18px;
+}
+.list-group-item{
+  background: none;
+}
+.masthead{
+  background: url("./background1.jpg"), #7b4397;
+  background: url("./background1.jpg"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  background: url("./background1.jpg"), linear-gradient(to left, #7b4397, #dc2430);
+  min-height: 600px;
+}

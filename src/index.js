@@ -7,14 +7,8 @@ import { App } from "./containers";
 
 ReactDOM.render(
   <BrowserRouter>
-    <div>
-      <ul>
-        <li>
-          <NavLink to="/result" activeClassName="active">
-            Home
-          </NavLink>
-        </li>
-      </ul>
+    <div className="container">
+
       <Switch>
         {routes.map((route, index) => (
           <Route
